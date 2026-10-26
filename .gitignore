@@ -1,0 +1,36 @@
+# Compiled class files
+*.class
+
+# Binary directory
+bin/
+
+# Log files
+*.log
+hs_err_pid*
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+
+# Generated corpus (in qq_bot, but keeping pattern for safety)
+generated_corpus/
+
+# Virtual environment
+venv/
+
+# Save files (too large for GitHub)
+saves/*.mcsave
+saves/*.mcskill
+saves/*.mcvocab
+
+# Data files (too large)
+data/*.csv
