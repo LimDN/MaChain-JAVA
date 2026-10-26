@@ -21,16 +21,19 @@ Thumbs.db
 *.tmp
 *.bak
 
-# Generated corpus (in qq_bot, but keeping pattern for safety)
-generated_corpus/
+# Save files (too large for GitHub)
+saves/
+**/saves/
+
+# Data files (too large)
+data/*.csv
+
+# Output directories
+output/
+**/output/
 
 # Virtual environment
 venv/
 
-# Save files (too large for GitHub)
-saves/*.mcsave
-saves/*.mcskill
-saves/*.mcvocab
-
-# Data files (too large)
-data/*.csv
+# Generated corpus
+generated_corpus/
